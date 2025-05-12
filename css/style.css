@@ -80,17 +80,3 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
 }
-.sd {
-  margin: 0 auto;
-  color: red;
-}
-
-body {
-  padding: 40px;
-}
-
-.sd::before {
-  content: "\f003";
-  font-family: iconFont;
-  color: aqua;
-}
