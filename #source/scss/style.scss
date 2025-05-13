@@ -19,7 +19,7 @@
     font-size: 16px;
     font-weight: 400;
 }
-headerTxtDown {
+.headerbutton {
     color: rgb(255, 255, 255);
     font-family: OpenSans;
     font-size: 11px;
@@ -54,13 +54,14 @@ headerTxtDown {
     font-size: 13px;
     font-weight: 400;
 }
-. body {
+.body {
     background: var(--colorBody);
 }
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    width: 100%;
+    border
+   
 }
 .buttonBlock{
     width: 150px;

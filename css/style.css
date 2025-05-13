@@ -80,3 +80,116 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "OpenSans-Bold";
+  font-display: swap;
+  src: url("");
+  src: local("O"), url("") format("woff"), url("/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"), url("") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  font-display: swap;
+  src: url("");
+  src: local("O"), url("") format("woff"), url("/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"), url("") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BebasNeueBold";
+  font-display: swap;
+  src: url("");
+  src: local("O"), url("") format("woff"), url("/fonts/BebasNeue-Regular/BebasNeue-Regular.ttf") format("truetype"), url("") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --colorBody: rgb(255, 255, 255);
+  --colorButton: rgb(0, 164, 229);
+  --colorTxt: rgb(72, 85, 91);
+  --colorFormBg: rgb(23, 24, 25);
+  --colorContact: rgb(20, 26, 32);
+}
+
+.header-h1 {
+  color: rgb(255, 255, 255);
+  font-family: BebasNeueBold;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.headerTxt {
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.headerbutton {
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.navTxt {
+  color: rgb(72, 85, 91);
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.h2 {
+  color: rgb(72, 85, 91);
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pBoul {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Ptxt {
+  color: rgb(72, 85, 91);
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.buttonTxt {
+  color: rgb(72, 85, 91);
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.body {
+  background: var(--colorBody);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.buttonBlock {
+  width: 150px;
+  height: 40px;
+  background: var(--colorButton);
+}
+
+.blockline {
+  width: 50px;
+  height: 2px;
+  background: var(--colorButton);
+}
+
+.header {
+  background: url(../img/bg.svg) no-repeat 100%;
+  background-size: cover;
+  height: 769px;
+}
