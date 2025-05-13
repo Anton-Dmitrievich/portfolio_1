@@ -1,6 +1,77 @@
 @import "_nullstyle";
 @import "_fonts";
-
+:root {
+    --colorBody: rgb(255, 255, 255);
+    --colorButton: rgb(0, 164, 229);
+    --colorTxt: rgb(72, 85, 91);
+    --colorFormBg: rgb(23, 24, 25);
+    --colorContact: rgb(20, 26, 32);
+}
+.header-h1 {
+    color: rgb(255, 255, 255);
+    font-family: BebasNeueBold;
+    font-size: 60px;
+    font-weight: 400;
+}
+.headerTxt {
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+}
+headerTxtDown {
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 400;
+}
+.navTxt {
+    color: rgb(72, 85, 91);
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 400;
+}
+.h2 {
+    color: rgb(72, 85, 91);
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pBoul {
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Ptxt {
+    color: rgb(72, 85, 91);
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 400;
+}
+.buttonTxt {
+    color: rgb(72, 85, 91);
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 400;
+}
+. body {
+    background: var(--colorBody);
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+.buttonBlock{
+    width: 150px;
+    height: 40px;
+    background: var(--colorButton);
+}
+.blockline{
+    width: 50px;
+    height: 2px;
+    background: var(--colorButton);
+}
 
 @import "_header";
 @import "_footer";
