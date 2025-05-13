@@ -6,10 +6,23 @@ height: 769px;
 .container {
 }
 .header-flex {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 41px 0 71px 0;
+}
+.header-img{
+    margin-bottom: 314px;
 }
 .header-h1 {
+    letter-spacing: 6px;
+    margin-bottom: 3px;
 }
 .headerTxt {
+    letter-spacing: 0.30px;
+    margin-bottom: 226px;
 }
 .headerbutton {
+    background: none;
+    letter-spacing: 3.9px;
 }

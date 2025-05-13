@@ -172,8 +172,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
+  max-width: 940px;
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 .buttonBlock {
@@ -192,4 +192,30 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/bg.svg) no-repeat 100%;
   background-size: cover;
   height: 769px;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 41px 0 71px 0;
+}
+
+.header-img {
+  margin-bottom: 314px;
+}
+
+.header-h1 {
+  letter-spacing: 6px;
+  margin-bottom: 3px;
+}
+
+.headerTxt {
+  letter-spacing: 0.3px;
+  margin-bottom: 226px;
+}
+
+.headerbutton {
+  background: none;
+  letter-spacing: 3.9px;
 }
