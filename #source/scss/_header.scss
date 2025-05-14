@@ -1,17 +1,17 @@
 .header {
-background: url(../img/bg.svg) no-repeat 100%;
-background-size: cover;
-height: 769px;
+    background: url(../img/bg.svg) no-repeat 100%;
+    background-size: cover;
+    height: 769px;
 }
 .container {
 }
 .header-flex {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     padding: 41px 0 71px 0;
 }
-.header-img{
+.header-img {
     margin-bottom: 314px;
 }
 .header-h1 {
@@ -19,10 +19,14 @@ height: 769px;
     margin-bottom: 3px;
 }
 .headerTxt {
-    letter-spacing: 0.30px;
+    letter-spacing: 0.3px;
     margin-bottom: 226px;
 }
 .headerbutton {
     background: none;
     letter-spacing: 3.9px;
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 400;
 }
