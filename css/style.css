@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5.71px;
   transform: translate(7px, 1px);
   margin-bottom: 6px;
+  text-align: center;
 }
 
 .headerTxt {
@@ -162,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   right: 0px;
   letter-spacing: 0.33px;
+  text-align: center;
 }
 
 .headerbutton {
@@ -172,4 +174,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3.7px;
   position: relative;
   right: -1px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
 }
