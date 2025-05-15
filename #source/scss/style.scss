@@ -1,75 +1,28 @@
 @import "_nullstyle";
 @import "_fonts";
 :root {
-    --colorBody: rgb(255, 255, 255);
-    --colorButton: rgb(0, 164, 229);
-    --colorTxt: rgb(72, 85, 91);
-    --colorFormBg: rgb(23, 24, 25);
-    --colorContact: rgb(20, 26, 32);
+    --body: rgb(255, 255, 255);
+    --colorfooter: rgb(23, 24, 25);
+    --colorcontact: rgb(20, 26, 32);
+    --whitetxt: rgb(255, 255, 255);
+    --darktxt: rgb(72, 85, 91);
 }
-.header-h1 {
-    color: rgb(255, 255, 255);
+.wrapper {
+    background: var(--body);
+}
+.h1 {
     font-family: BebasNeueBold;
-    font-size: 60px;
-    font-weight: 400;
-}
-.headerTxt {
-    color: rgb(255, 255, 255);
-    font-family: OpenSans;
-    font-size: 16px;
-    font-weight: 400;
-}
-.headerbutton {
-    color: rgb(255, 255, 255);
-    font-family: OpenSans;
-    font-size: 11px;
-    font-weight: 400;
-}
-.navTxt {
-    color: rgb(72, 85, 91);
-    font-family: OpenSans;
-    font-size: 12px;
-    font-weight: 400;
 }
 .h2 {
-    color: rgb(72, 85, 91);
     font-family: OpenSans;
-    font-size: 18px;
-    font-weight: 700;
 }
-.pBoul {
+.txt-p {
     font-family: OpenSans;
-    font-size: 20px;
-    font-weight: 700;
 }
-.Ptxt {
-    color: rgb(72, 85, 91);
+.button {
+    background: rgb(0, 164, 229);
     font-family: OpenSans;
-    font-size: 13px;
-    font-weight: 400;
-}
-.buttonTxt {
-    color: rgb(72, 85, 91);
-    font-family: OpenSans;
-    font-size: 13px;
-    font-weight: 400;
-}
-.body {
-    background: var(--colorBody);
-}
-.container {
-    max-width:940px;
-    margin: 0 auto;
-}
-.buttonBlock{
-    width: 150px;
-    height: 40px;
-    background: var(--colorButton);
-}
-.blockline{
-    width: 50px;
-    height: 2px;
-    background: var(--colorButton);
+    
 }
 
 @import "_header";

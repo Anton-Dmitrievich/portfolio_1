@@ -105,100 +105,43 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 :root {
-  --colorBody: rgb(255, 255, 255);
-  --colorButton: rgb(0, 164, 229);
-  --colorTxt: rgb(72, 85, 91);
-  --colorFormBg: rgb(23, 24, 25);
-  --colorContact: rgb(20, 26, 32);
+  --body: rgb(255, 255, 255);
+  --colorfooter: rgb(23, 24, 25);
+  --colorcontact: rgb(20, 26, 32);
+  --whitetxt: rgb(255, 255, 255);
+  --darktxt: rgb(72, 85, 91);
 }
 
-.header-h1 {
-  color: rgb(255, 255, 255);
+.wrapper {
+  background: var(--body);
+}
+
+.h1 {
   font-family: BebasNeueBold;
-  font-size: 60px;
-  font-weight: 400;
-}
-
-.headerTxt {
-  color: rgb(255, 255, 255);
-  font-family: OpenSans;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.headerbutton {
-  color: rgb(255, 255, 255);
-  font-family: OpenSans;
-  font-size: 11px;
-  font-weight: 400;
-}
-
-.navTxt {
-  color: rgb(72, 85, 91);
-  font-family: OpenSans;
-  font-size: 12px;
-  font-weight: 400;
 }
 
 .h2 {
-  color: rgb(72, 85, 91);
   font-family: OpenSans;
-  font-size: 18px;
-  font-weight: 700;
 }
 
-.pBoul {
+.txt-p {
   font-family: OpenSans;
-  font-size: 20px;
-  font-weight: 700;
 }
 
-.Ptxt {
-  color: rgb(72, 85, 91);
+.button {
+  background: rgb(0, 164, 229);
   font-family: OpenSans;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.buttonTxt {
-  color: rgb(72, 85, 91);
-  font-family: OpenSans;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.body {
-  background: var(--colorBody);
-}
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-}
-
-.buttonBlock {
-  width: 150px;
-  height: 40px;
-  background: var(--colorButton);
-}
-
-.blockline {
-  width: 50px;
-  height: 2px;
-  background: var(--colorButton);
 }
 
 .header {
-  background: url(../img/bg.svg) no-repeat 100%;
-  background-size: cover;
-  height: 769px;
+  background: url(../img/bg.svg) center/cover;
+  padding: 40px 0 70px 0;
 }
 
 .header-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 41px 0 71px 0;
 }
 
 .header-img {
@@ -206,20 +149,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-h1 {
-  letter-spacing: 6px;
-  margin-bottom: 3px;
+  font-size: 60px;
+  font-weight: 400;
+  color: var(--whitetxt);
+  letter-spacing: 5.71px;
+  position: relative;
+  right: -7px;
+  margin-bottom: 6px;
 }
 
 .headerTxt {
-  letter-spacing: 0.3px;
-  margin-bottom: 226px;
+  margin-bottom: 225px;
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  right: 0px;
+  letter-spacing: 0.33px;
 }
 
 .headerbutton {
   background: none;
-  letter-spacing: 3.9px;
-  color: rgb(255, 255, 255);
-  font-family: OpenSans;
+  color: var(--whitetxt);
   font-size: 11px;
   font-weight: 400;
+  letter-spacing: 3.7px;
+  position: relative;
+  right: -1px;
 }
