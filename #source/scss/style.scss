@@ -13,16 +13,14 @@
 .h1 {
     font-family: BebasNeueBold;
 }
-.h2 {
+.h2, .txt-p {
     font-family: OpenSans;
 }
-.txt-p {
-    font-family: OpenSans;
-}
+
 .button {
     background: rgb(0, 164, 229);
     font-family: OpenSans;
-    
+
 }
 
 @import "_header";

@@ -120,11 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: BebasNeueBold;
 }
 
-.h2 {
-  font-family: OpenSans;
-}
-
-.txt-p {
+.h2, .txt-p {
   font-family: OpenSans;
 }
 
