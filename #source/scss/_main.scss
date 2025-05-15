@@ -1,1 +1,54 @@
-\* nav bar*\
+/*navBar*/
+.nav {
+    padding: 24px 0px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.container {
+}
+.navflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bardef {
+    display: none;
+}
+.nav-bar {
+    display: flex;
+    gap: 41px;
+
+    &__link {
+        color: var(--darktxt);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1.09px;
+    }
+    &__link:hover {
+        color: var(--hover);
+        font-weight: 700;
+    }
+}
+.nav-button {
+    display: none;
+    &__line {
+        width: 10px;
+        height: 2px;
+        background: var(--hover);
+    }
+}
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+        &__line {
+            width: 15px;
+            height: 2px;
+            background: var(--hover);
+            margin-bottom: 2px;
+        }
+    }
+}
+
+/*STORY*/

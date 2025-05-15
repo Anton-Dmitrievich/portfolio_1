@@ -6,23 +6,34 @@
     --colorcontact: rgb(20, 26, 32);
     --whitetxt: rgb(255, 255, 255);
     --darktxt: rgb(72, 85, 91);
+    --hover: rgb(0, 164, 229);
 }
+
 .wrapper {
     background: var(--body);
+    font-family: OpenSans;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    border:solid 1px red;
 }
 .h1 {
     font-family: BebasNeueBold;
 }
-.h2, .txt-p {
-    font-family: OpenSans;
-}
-
 .button {
     background: rgb(0, 164, 229);
     font-family: OpenSans;
+}
+.line {
+    background: rgb(0, 164, 229);
 
 }
-
+@media (max-width: 768px) {
+    .container{
+        padding: 0 10px;
+    }
+}
 @import "_header";
 @import "_main";
 @import "_footer";
