@@ -16,7 +16,7 @@
 .container {
     max-width: 940px;
     margin: 0 auto;
-    border:solid 1px red;
+   
 }
 .h1 {
     font-family: BebasNeueBold;
@@ -35,7 +35,7 @@
     background: rgb(0, 164, 229);
 
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .container{
         padding: 0 10px;
     }

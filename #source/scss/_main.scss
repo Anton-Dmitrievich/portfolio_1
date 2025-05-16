@@ -9,10 +9,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 23px;
 }
-.nav-bardef {
-    display: none;
-}
+
 .nav-bar {
     display: flex;
     gap: 40px;
@@ -37,6 +36,10 @@
     }
 }
 @media (max-width: 768px) {
+
+    .nav-bar {
+        display: none;
+    }
     .nav-button {
         display: block;
         display: flex;
@@ -52,7 +55,7 @@
 
 /*STORY*/
 .story {
-    padding: 79px 0 0 0;
+    padding: 61px 0 0 0;
 }
 .container {
 }
@@ -102,7 +105,6 @@
 .story-card {
     width: 140px;
     height: 224px;
-    border: 1px solid red;
     overflow: hidden;
     &__h3 {
         width: 68px;
