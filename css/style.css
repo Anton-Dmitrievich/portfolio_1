@@ -137,10 +137,15 @@ h1, h2, h3, h4, h5, h6 {
 .button {
   background: rgb(0, 164, 229);
   font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--body);
 }
 
 .line {
   background: rgb(0, 164, 229);
+  width: 53px;
+  height: 2px;
 }
 
 @media (max-width: 1024px) {
@@ -260,8 +265,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .story-line {
-  width: 53px;
-  height: 2px;
   margin: 10px auto 56px;
 }
 
@@ -340,3 +343,35 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /*servis*/
+.servis {
+  padding: 120px 0 0 0;
+}
+.servis-upblock {
+  margin-bottom: 98px;
+}
+
+.servis-flex {
+  display: grid;
+}
+
+.servis-title {
+  width: 198px;
+}
+.servis-title__h2 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.31px;
+  margin-bottom: 10px;
+}
+
+.servis-p {
+  width: 405.4px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.servis-button {
+  width: 150px;
+  height: 40px;
+}

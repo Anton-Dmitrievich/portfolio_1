@@ -16,7 +16,6 @@
 .container {
     max-width: 940px;
     margin: 0 auto;
-   
 }
 .h1 {
     font-family: BebasNeueBold;
@@ -25,18 +24,22 @@
     font-size: 18px;
     font-weight: 700;
     color: var(--darktxt);
-    letter-spacing: 2.31px
+    letter-spacing: 2.31px;
 }
 .button {
     background: rgb(0, 164, 229);
     font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--body);
 }
 .line {
     background: rgb(0, 164, 229);
-
+    width: 53px;
+    height: 2px;
 }
 @media (max-width: 1024px) {
-    .container{
+    .container {
         padding: 0 10px;
     }
 }

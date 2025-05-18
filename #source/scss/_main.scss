@@ -36,7 +36,6 @@
     }
 }
 @media (max-width: 768px) {
-
     .nav-bar {
         display: none;
     }
@@ -69,8 +68,6 @@
 .line {
 }
 .story-line {
-    width: 53px;
-    height: 2px;
     margin: 10px auto 56px;
 }
 .story-flex {
@@ -146,3 +143,53 @@
     }
 }
 /*servis*/
+
+.servis {
+    padding: 120px 0 0 0;
+    &__line {
+    }
+}
+.container {
+}
+.servis-upblock {
+    margin-bottom: 98px;
+}
+.servis-flex {
+display: grid;
+
+}
+.servis-title {
+    width: 198px;
+    &__h2 {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 2.31px;
+        margin-bottom: 10px;
+    }
+}
+.h2 {
+}
+.servis-p {
+    width: 405.4px;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+.button {
+}
+.servis-button {
+    width: 150px;
+    height: 40px;
+}
+.servis-cards {
+}
+.servis-card {
+    &__img {
+    }
+
+    &__h3 {
+    }
+
+    &__p {
+    }
+}
