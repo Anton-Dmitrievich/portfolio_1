@@ -347,21 +347,25 @@ h1, h2, h3, h4, h5, h6 {
   padding: 120px 0 0 0;
 }
 .servis-upblock {
-  margin-bottom: 98px;
+  margin-bottom: 74px;
 }
 
 .servis-flex {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .servis-title {
   width: 198px;
+  margin-right: 125px;
 }
 .servis-title__h2 {
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 2.31px;
-  margin-bottom: 10px;
+  letter-spacing: 2.76px;
+  margin-bottom: 13px;
 }
 
 .servis-p {
@@ -369,9 +373,55 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.2px;
+  line-height: 19px;
 }
 
 .servis-button {
   width: 150px;
   height: 40px;
+  letter-spacing: 1px;
+}
+
+.servis-cards {
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servis-card {
+  border: 1px solid rgb(230, 230, 230);
+  width: 295px;
+  padding: 38px 22px 39px 23px;
+}
+.servis-card__img {
+  margin-bottom: 23px;
+}
+.servis-card__h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.78px;
+  margin-bottom: 15px;
+}
+.servis-card__p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.19px;
+}
+
+@media (max-width: 1024px) {
+  .servis-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .servis-title {
+    width: 198px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
