@@ -182,8 +182,6 @@
 .button {
 }
 .servis-button {
-    width: 150px;
-    height: 40px;
     letter-spacing: 1px;
 }
 .servis-cards {
@@ -195,7 +193,7 @@
 .servis-card {
     border: 1px solid rgb(230, 230, 230);
     width: 295px;
-   
+
     padding: 38px 22px 39px 23px;
     &__img {
         margin-bottom: 23px;
@@ -230,4 +228,31 @@
         flex-direction: column;
         align-items: center;
     }
+}
+/*touch*/
+.touch {
+    background: url(../img/touch.png) center / cover;
+    padding: 235px 0 232px 0;
+}
+.container {
+}
+.touch-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    
+}
+.h2 {
+}
+.touch-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 350px;
+    text-align: center;    
+    letter-spacing: 1.30px;
+}
+.button {
+    letter-spacing: 0.5px;
 }

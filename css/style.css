@@ -140,6 +140,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-weight: 700;
   color: var(--body);
+  width: 150px;
+  height: 40px;
 }
 
 .line {
@@ -377,8 +379,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .servis-button {
-  width: 150px;
-  height: 40px;
   letter-spacing: 1px;
 }
 
@@ -424,4 +424,29 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
+}
+/*touch*/
+.touch {
+  background: url(../img/touch.png) center/cover;
+  padding: 235px 0 232px 0;
+}
+
+.touch-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+}
+
+.touch-h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 350px;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+.button {
+  letter-spacing: 0.5px;
 }
