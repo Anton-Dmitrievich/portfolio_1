@@ -140,6 +140,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-weight: 700;
   color: var(--body);
+  letter-spacing: 1px;
+  width: 150px;
+  height: 40px;
 }
 
 .line {
@@ -374,12 +377,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 19px;
-}
-
-.servis-button {
-  width: 150px;
-  height: 40px;
-  letter-spacing: 1px;
 }
 
 .servis-cards {
