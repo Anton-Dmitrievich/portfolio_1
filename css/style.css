@@ -438,10 +438,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 235px 0 232px 0;
 }
 
-.container {
-  border: aolid 1px red;
-}
-
 .touch-flex {
   display: flex;
   flex-direction: column;
@@ -506,6 +502,13 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--colorfooter);
 }
 
+.footer-flex {
+  display: flex;
+}
+
+.footer-links {
+  display: flex;
+}
 .footer-down {
   background: var(--colorcontact);
   display: flex;

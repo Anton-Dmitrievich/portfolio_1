@@ -3,6 +3,10 @@
 }
 .container {
 }
+.footer-flex{
+    display:  flex;
+    
+}
 .company {
 }
 .footer-img {
@@ -10,7 +14,7 @@
 .footer-p {
 }
 .footer-links {
-
+ display: flex;
 		&__item {
 		}
 }
@@ -31,4 +35,7 @@
 		&__p {
             letter-spacing: 0.85px;
 		}
+}
+@media (max-width: 1024px) {
+
 }
