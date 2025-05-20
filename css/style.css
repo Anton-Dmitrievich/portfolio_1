@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--body);
   width: 150px;
   height: 40px;
+  letter-spacing: 0.5px;
 }
 
 .line {
@@ -431,6 +432,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 235px 0 232px 0;
 }
 
+.container {
+  border: aolid 1px red;
+}
+
 .touch-flex {
   display: flex;
   flex-direction: column;
@@ -449,4 +454,47 @@ h1, h2, h3, h4, h5, h6 {
 
 .button {
   letter-spacing: 0.5px;
+}
+
+/*contact*/
+.contact {
+  background: var(--colorcontact);
+  padding: 29px 342px 30px;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.contact-h2 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.contact-flexForm {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-contact__txt {
+  width: 250px;
+  padding: 11px 0 10px 16px;
+}
+
+@media (max-width: 1124px) {
+  .contact {
+    background: var(--colorcontact);
+    padding: 29px 0px 30px;
+  }
+  .contact-flexForm {
+    justify-content: center;
+    gap: 5px;
+  }
 }
