@@ -465,14 +465,17 @@ h1, h2, h3, h4, h5, h6 {
 /*contact*/
 .contact {
   background: var(--colorcontact);
-  padding: 29px 342px 30px;
+  padding: 29px 0px 30px;
+}
+
+.contact-container {
+  width: 748px;
 }
 
 .contact-flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
   gap: 5px;
 }
 
@@ -486,7 +489,6 @@ h1, h2, h3, h4, h5, h6 {
 .contact-flexForm {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .form-contact__txt {
@@ -499,8 +501,17 @@ h1, h2, h3, h4, h5, h6 {
     background: var(--colorcontact);
     padding: 29px 0px 30px;
   }
-  .contact-flexForm {
-    justify-content: center;
-    gap: 5px;
-  }
+}
+.footer {
+  background: var(--colorfooter);
+}
+
+.footer-down {
+  background: var(--colorcontact);
+  display: flex;
+  justify-content: center;
+  padding: 22px 0;
+}
+.footer-down__p {
+  letter-spacing: 0.85px;
 }

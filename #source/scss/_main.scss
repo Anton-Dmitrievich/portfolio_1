@@ -259,15 +259,18 @@
 /*contact*/
 .contact {
     background: var(--colorcontact);
-    padding: 29px 342px 30px;
+    padding: 29px 0px 30px;
 }
 .container {
+    
+}
+.contact-container{
+    width: 748px;
 }
 .contact-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     gap: 5px;
 }
 .contact-h2 {
@@ -279,7 +282,7 @@
 .contact-flexForm {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+ 
 }
 .form-contact {
     &__txt {
@@ -297,8 +300,8 @@
     
     }
     .contact-flexForm {
-        justify-content: center;    
-        gap: 5px;
+       
+        
 
     }
 }
