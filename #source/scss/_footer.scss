@@ -1,41 +1,58 @@
 .footer {
     background: var(--colorfooter);
+    padding: 42px 0 47px 0;
 }
 .container {
 }
-.footer-flex{
-    display:  flex;
-    
+.footer-flex {
+    display: grid;
+    grid-template-columns: 255px 250px 140px 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 .company {
 }
-.footer-img {
+.footer-h4 {
+    margin-bottom: 22px;
 }
+.footer-img {
+    margin-bottom: 15px;
+}
+
 .footer-p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing:0.9px;
 }
 .footer-links {
- display: flex;
-		&__item {
-		}
+    display: flex;
+    &__item {
+    }
 }
 .footer-addres {
-
-		&__p {
-		}
+    &__p {
+    }
 }
 .icon {
 }
 .footer-icon {
+    display: flex;
+    justify-content: space-between;
+    &_facebook,
+    &_twiter,
+    &_google {
+        color: white;
+    }
 }
 .footer-down {
     background: var(--colorcontact);
     display: flex;
     justify-content: center;
     padding: 22px 0;
-		&__p {
-            letter-spacing: 0.85px;
-		}
+    &__p {
+        letter-spacing: 0.85px;
+    }
 }
 @media (max-width: 1024px) {
-
 }

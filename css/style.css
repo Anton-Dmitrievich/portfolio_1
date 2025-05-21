@@ -134,6 +134,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2.31px;
 }
 
+.h4 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: 0.85px;
+  color: var(--body);
+}
+
 .button {
   background: rgb(0, 164, 229);
   font-family: OpenSans;
@@ -500,15 +508,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer {
   background: var(--colorfooter);
+  padding: 42px 0 47px 0;
 }
 
 .footer-flex {
-  display: flex;
+  display: grid;
+  grid-template-columns: 255px 250px 140px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-h4 {
+  margin-bottom: 22px;
+}
+
+.footer-img {
+  margin-bottom: 15px;
+}
+
+.footer-p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.9px;
 }
 
 .footer-links {
   display: flex;
 }
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon_facebook, .footer-icon_twiter, .footer-icon_google {
+  color: white;
+}
+
 .footer-down {
   background: var(--colorcontact);
   display: flex;
