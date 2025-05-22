@@ -516,10 +516,16 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 255px 250px 140px 100px;
   justify-content: space-between;
   align-items: center;
+  border: red 1px solid;
+}
+
+.company {
+  border: red 1px solid;
 }
 
 .footer-h4 {
   margin-bottom: 22px;
+  text-transform: uppercase;
 }
 
 .footer-img {
@@ -534,7 +540,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-links {
+  border: red 1px solid;
+}
+.footer-links__flex {
   display: flex;
+}
+.footer-addres {
+  border: red 1px solid;
 }
 .footer-icon {
   display: flex;
