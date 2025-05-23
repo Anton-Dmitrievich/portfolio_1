@@ -1,0 +1,61 @@
+.footer {
+    background: var(--colorfooter);
+}
+.container {
+}
+.footer-flex {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 100px;
+    gap: 10px;
+}
+.company {
+}
+.h4 {
+}
+.footer-h4 {
+}
+.footer-img {
+}
+.footer-p {
+}
+.footer-links {
+
+		&__flex {
+		}
+
+		&__item {
+		}
+}
+.footer-a {
+}
+.footer-addres {
+
+		&__p {
+		}
+}
+.icon {
+}
+.footer-icon {
+
+		&_facebook {
+		}
+
+		&_twiter {
+		}
+
+		&_google {
+		}
+}
+.fa {
+}
+.fa-facebook-official {
+}
+.fa-twitter {
+}
+.fa-google {
+}
+.footer-down {
+
+		&__p {
+		}
+}

@@ -500,3 +500,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 29px 0px 30px;
   }
 }
+.footer {
+  background: var(--colorfooter);
+}
+
+.footer-flex {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 100px;
+  gap: 10px;
+}
