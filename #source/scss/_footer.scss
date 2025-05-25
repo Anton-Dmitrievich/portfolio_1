@@ -1,50 +1,73 @@
 .footer {
-    background: var(--colorfooter);
+	background: var(--colorfooter);
+	padding: 43px 0 0 0;
 }
 .container {
 }
 .footer-flex {
-    display: grid;
-    grid-template-columns: 150px 150px 150px 100px;
-    gap: 10px;
+	display: grid;
+	grid-template-columns:274px 277px 141px 115px;
+	gap: 10px;
+	justify-content: space-between;
 }
 .company {
 }
 .h4 {
 }
 .footer-h4 {
+	text-transform: uppercase;
+	margin-bottom: 21px;
 }
 .footer-img {
+	margin-bottom: 18px;
 }
 .footer-p {
+	color: var(--body);
+	font-size: 11px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 1px;
 }
 .footer-links {
+	&__flex {
+		display: grid;
+		grid-template-columns: 112px 89px 75px;
+		margin-top: -9px;
+	}
 
-		&__flex {
-		}
-
-		&__item {
-		}
+	&__item {
+	}
 }
 .footer-a {
+	text-transform: uppercase;
+	color:var(--body);
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.85px;
 }
 .footer-addres {
-
-		&__p {
-		}
+	&__p {
+		color: var(--body);
+		margin-top: -6px;
+	}
 }
 .icon {
 }
 .footer-icon {
+		color: var(--body);
+		display: flex;
+		justify-content: space-between;
+		padding: 27px 26px 0px 3px;
+	&_facebook {
+	
+	}
 
-		&_facebook {
-		}
+	&_twiter {
+	}
 
-		&_twiter {
-		}
-
-		&_google {
-		}
+	&_google {
+	}
 }
 .fa {
 }
@@ -55,7 +78,8 @@
 .fa-google {
 }
 .footer-down {
-
-		&__p {
-		}
+	background: var(--colorcontact);
+	text-align: center;
+	&__p {
+	}
 }
