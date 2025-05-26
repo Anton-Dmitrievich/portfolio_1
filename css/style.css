@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .container {
     padding: 0 15px;
   }
@@ -507,16 +507,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer {
   background: var(--colorfooter);
+  padding-top: 42px;
 }
 
 .footer-contact__flex {
-  display: grid;
-  grid-template-columns: 250px 262px 141px 100px;
+  display: flex;
+  gap: 70px;
 }
+.footer-contact__company {
+  width: 250px;
+}
+.footer-contact__img {
+  margin-bottom: 14px;
+}
+
 .footer-h4 {
   color: var(--body);
   font-size: 11px;
   font-weight: 400;
   line-height: -1px;
   letter-spacing: 0.85px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.footer-p {
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.footer-links {
+  width: 263px;
+  display: grid;
 }
