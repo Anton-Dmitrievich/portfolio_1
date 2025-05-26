@@ -505,3 +505,18 @@ h1, h2, h3, h4, h5, h6 {
     gap: 5px;
   }
 }
+.footer {
+  background: var(--colorfooter);
+}
+
+.footer-contact__flex {
+  display: grid;
+  grid-template-columns: 250px 262px 141px 100px;
+}
+.footer-h4 {
+  color: var(--body);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: 0.85px;
+}
