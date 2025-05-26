@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1024px) {
   .container {
-    padding: 0 10px;
+    padding: 0 15px;
   }
 }
 .header {
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-container {
-  width: 748px;
+  max-width: 748px;
 }
 
 .contact-flex {
@@ -475,6 +475,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-around;
   align-items: center;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 .contact-h2 {
@@ -494,10 +495,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 0 10px 16px;
 }
 
-@media (max-width: 1124px) {
-  .contact {
-    background: var(--colorcontact);
-    padding: 29px 0px 30px;
+@media (max-width: 768px) {
+  .contact-flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contact-flexForm {
+    flex-direction: column;
+    gap: 5px;
   }
 }
 .footer {
@@ -564,4 +569,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 39px 0 40px 10px;
   height: 60px;
+}
+@media (max-width: 768px) {
+  .footer-flex {
+    grid-template-columns: 261px 261px;
+  }
 }

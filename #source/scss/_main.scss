@@ -146,7 +146,6 @@
 /*servis*/
 
 .servis {
-    
     &__line {
     }
 }
@@ -234,10 +233,9 @@
 .touch {
     background: url(../img/touch.png) center / cover;
     min-height: 500px;
-    padding-top: 123px
+    padding-top: 123px;
 }
 .container {
-    
 }
 .touch-flex {
     display: flex;
@@ -264,16 +262,16 @@
     padding: 31px 0px 30px;
 }
 .container {
-    
 }
-.contact-container{
-    width: 748px;
+.contact-container {
+    max-width: 748px;
 }
 .contact-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .contact-h2 {
     color: rgb(255, 255, 255);
@@ -284,7 +282,6 @@
 .contact-flexForm {
     display: flex;
     align-items: center;
- 
 }
 .form-contact {
     &__txt {
@@ -293,17 +290,14 @@
     }
 }
 
-@media (max-width: 1124px) {
-    .contact {
-    background: var(--colorcontact);
-    padding: 29px 0px 30px;
-}
+@media (max-width: 768px) {
     .contact-flex {
-    
+        flex-direction: column;
+        gap: 15px;
     }
     .contact-flexForm {
-       
-        
 
+        flex-direction: column;
+        gap: 5px;
     }
 }
