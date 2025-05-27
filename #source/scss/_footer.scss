@@ -3,7 +3,7 @@
     padding-top: 42px;
 }
 .footer-contact {
-    margin-bottom: 22px;
+    
     &__flex {
         display: flex;
         gap: 75px;
@@ -95,7 +95,7 @@
 }
 .footer-down {
     background: var(--colorcontact);
-    padding: 0 0 22px 0;
+    padding: 22px 0 22px 0;
     text-align: center;
 }
 .footer-down-p {

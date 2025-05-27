@@ -514,9 +514,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 42px;
 }
 
-.footer-contact {
-  margin-bottom: 22px;
-}
 .footer-contact__flex {
   display: flex;
   gap: 75px;
@@ -599,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-down {
   background: var(--colorcontact);
-  padding: 0 0 22px 0;
+  padding: 22px 0 22px 0;
   text-align: center;
 }
 
