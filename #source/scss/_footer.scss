@@ -1,55 +1,124 @@
 .footer {
-	background: var(--colorfooter);
-	padding-top: 42px;
+    background: var(--colorfooter);
+    padding-top: 42px;
 }
 .footer-contact {
-	&__flex {
-		display: flex;
-		gap: 70px;
-
-	}
-	&__company {
-		width: 250px;
-	}
-	&__img{
-		margin-bottom: 14px;
-	}
+    margin-bottom: 22px;
+    &__flex {
+        display: flex;
+        gap: 75px;
+        flex-wrap: wrap;
+    }
 }
 .container {
 }
+.company {
+    width: 250px;
+}
 .footer-h4 {
-	color: var(--body);
-	font-size: 11px;
-	font-weight: 400;
-	line-height: -1px;
-	letter-spacing: 0.85px;
-	text-transform: uppercase;
-	margin-bottom: 22px;
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0.85px;
+    text-transform: uppercase;
+}
+.company-h4 {
+    margin-bottom: 21px;
+}
+.compony-img {
+    margin-bottom: 15px;
 }
 .footer-p {
-	color: rgb(255, 255, 255);
-	font-family: OpenSans;
-	font-size: 11px;
-	font-weight: 400;
-	line-height: 19px;
+    color: rgb(255, 255, 255);
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
 }
-.footer-links {
-	width: 263px;
-	display: grid;
-	grid-template-areas: ;
+.company-p {
 }
-.footer-colum {
-	
+.links {
+    &__grid {
+        display: grid;
+        grid-template-areas:"header header header"
+        "colum1 colum2 colum3" ;
+        gap: 10px;
+    }
+    &__grid-h4 {
+        grid-area: header;
+        border: 1px solid red;
+    }
+    &__grid-colum1 {
+        grid-area: colum1;
+        border: 1px solid red;
+        width: 76px;
+    }
+    &__grid-colum2 {
+        grid-area: colum2;
+        border: 1px solid red;
+        width: 52px;
+    }
+    &__grid-colum3 {
+        grid-area: colum3;
+        border: 1px solid red;
+        width: 62px;
+    }
+    &__link {
+        color: rgb(255, 255, 255);
+        font-family: OpenSans;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.85px;
+        text-transform: uppercase;
+    }
 }
-.footer-li {
-
-	&__a {
-	}
+.links-h4 {
 }
 .addres {
+    &__flex {
+        width: 141px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
-.footer-dowun {
+.addres-h4 {
+}
+.icon {
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+}
+.footer-down {
+    background: var(--colorcontact);
+    padding: 0 0 22px 0;
+    text-align: center;
+}
+.footer-down-p {
+    
 }
 
+@media (max-width: 1024px) {
+    .footer-contact {
+    &__flex {
+        justify-content: center;
+    }
+}
+}
 @media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}
+.links {
+    &__grid-colum1 {
+    }
 }

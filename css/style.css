@@ -159,9 +159,14 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .container {
     padding: 0 15px;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    text-align: center;
   }
 }
 .header {
@@ -510,25 +515,35 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 42px;
 }
 
+.footer-contact {
+  margin-bottom: 22px;
+}
 .footer-contact__flex {
   display: flex;
-  gap: 70px;
+  gap: 75px;
+  flex-wrap: wrap;
 }
-.footer-contact__company {
+
+.company {
   width: 250px;
-}
-.footer-contact__img {
-  margin-bottom: 14px;
 }
 
 .footer-h4 {
-  color: var(--body);
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
   font-size: 11px;
   font-weight: 400;
   line-height: -1px;
   letter-spacing: 0.85px;
   text-transform: uppercase;
-  margin-bottom: 22px;
+}
+
+.company-h4 {
+  margin-bottom: 21px;
+}
+
+.compony-img {
+  margin-bottom: 15px;
 }
 
 .footer-p {
@@ -539,7 +554,62 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 19px;
 }
 
-.footer-links {
-  width: 263px;
+.links__grid {
   display: grid;
+  grid-template-areas: "header header header" "colum1 colum2 colum3";
+  gap: 10px;
+}
+.links__grid-h4 {
+  grid-area: header;
+  border: 1px solid red;
+}
+.links__grid-colum1 {
+  grid-area: colum1;
+  border: 1px solid red;
+  width: 76px;
+}
+.links__grid-colum2 {
+  grid-area: colum2;
+  border: 1px solid red;
+  width: 52px;
+}
+.links__grid-colum3 {
+  grid-area: colum3;
+  border: 1px solid red;
+  width: 62px;
+}
+.links__link {
+  color: rgb(255, 255, 255);
+  font-family: OpenSans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.85px;
+  text-transform: uppercase;
+}
+
+.addres__flex {
+  width: 141px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon {
+  width: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-down {
+  background: var(--colorcontact);
+  padding: 0 0 22px 0;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-contact__flex {
+    justify-content: center;
+  }
 }
