@@ -560,21 +560,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .links__grid-h4 {
   grid-area: header;
-  border: 1px solid red;
 }
 .links__grid-colum1 {
   grid-area: colum1;
-  border: 1px solid red;
   width: 76px;
 }
 .links__grid-colum2 {
   grid-area: colum2;
-  border: 1px solid red;
   width: 52px;
 }
 .links__grid-colum3 {
   grid-area: colum3;
-  border: 1px solid red;
   width: 62px;
 }
 .links__link {
