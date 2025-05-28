@@ -5,7 +5,7 @@ const drop =document.querySelector('.drop')
 
 button.addEventListener('click',function(){
 
-  drop.classList.toggle("dropshow")
+  drop.classList.toggle("show")
 
 })
 
