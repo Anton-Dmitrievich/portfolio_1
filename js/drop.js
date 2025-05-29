@@ -9,12 +9,12 @@ button.addEventListener('click', function () {
 
 })
 
-
-
-window.onclick = function (event) {
-
-
-
- 
-
-}
+window.addEventListener('click', function(event) {
+  // Проверяем, что клик был не по кнопке открытия меню и не по элементам меню
+  if (!event.target.closest('.nav-button') && !event.target.closest('.drop')) {
+    drop.classList.remove("show")
+  }
+  if (event.target.closest('.drop')) {
+    drop.classList.remove("show")
+  }
+});
