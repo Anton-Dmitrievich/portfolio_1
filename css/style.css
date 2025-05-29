@@ -256,6 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 5px;
   background: none;
+  display: none;
 }
 .nav-button__line {
   background: var(--hover);
@@ -289,6 +290,17 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+  }
+  .nav__list {
+    display: none;
+  }
+}
 /*STORY*/
 .story {
   padding: 61px 0 0 0;

@@ -25,10 +25,12 @@
 }
 
 .nav-button {
+    
     display: flex;
     flex-direction: column;
     gap: 5px;
     background: none;
+    display: none;
     &__line {
         background: var(--hover);
         width: 20px;
@@ -64,6 +66,18 @@
     top: 190px;
     transition: 0.5s;
     z-index: 1;
+}
+@media (max-width: 768px) {
+    .nav-button {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+}
+        .nav__list{
+        display:none;
+    }
 }
 
 /*STORY*/
