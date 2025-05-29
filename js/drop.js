@@ -14,7 +14,5 @@ window.addEventListener('click', function(event) {
   if (!event.target.closest('.nav-button') && !event.target.closest('.drop')) {
     drop.classList.remove("show")
   }
-  if (event.target.closest('.drop')) {
-    drop.classList.remove("show")
-  }
+
 });
