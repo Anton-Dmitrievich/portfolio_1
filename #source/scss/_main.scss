@@ -69,13 +69,12 @@
 }
 @media (max-width: 768px) {
     .nav-button {
-    
     display: flex;
     flex-direction: column;
     gap: 5px;
     background: none;
-}
-        .nav__list{
+    }
+    .nav__list{
         display:none;
     }
 }
