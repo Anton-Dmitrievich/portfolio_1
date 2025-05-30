@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.a:hover {
+.nav-a:hover {
   color: var(--hover);
   letter-spacing: 1.09px;
 }
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__list-link:hover {
   color: var(--hover);
-  transition: 5s;
+  transition: 1s;
 }
 
 .container-nav {
@@ -282,12 +282,16 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  gap: 27px;
+  gap: 5px;
   margin-bottom: 30px;
 }
 .drop__list-link {
   width: 100%;
   text-align: center;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .drop__list-link:hover {
   font-size: 16px;

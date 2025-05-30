@@ -12,7 +12,7 @@
 
     &__list-link:hover {
         color: var(--hover);
-        transition: 5s;
+        transition: 1s;
     }
 }
 .container {
@@ -25,7 +25,6 @@
 }
 
 .nav-button {
-    
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -54,13 +53,18 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
-        gap: 27px;
+        gap: 5px;
         margin-bottom: 30px;
+        
     }
 
     &__list-link {
         width: 100%;
         text-align: center;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     &__list-link:hover {
         font-size: 16px;
