@@ -2,8 +2,6 @@
 .nav {
     position: relative;
     border-bottom: 1px solid rgb(230, 230, 230);
-    &__logo {
-    }
 
     &__list {
         display: flex;
@@ -15,8 +13,7 @@
         transition: 1s;
     }
 }
-.container {
-}
+
 .container-nav {
     display: flex;
     justify-content: space-between;
@@ -97,17 +94,14 @@
     padding: 61px 0 0 0;
     margin-bottom: 119px;
 }
-.container {
-}
-.h2 {
-}
+
+
 .story-h2 {
     text-align: center;
     transform: translate(1px, 0px);
     margin-bottom: 14px;
 }
-.line {
-}
+
 .story-line {
     margin: 10px auto 56px;
 }
@@ -189,12 +183,8 @@
 }
 /*servis*/
 
-.servis {
-    &__line {
-    }
-}
-.container {
-}
+
+
 .servis-upblock {
     margin-bottom: 74px;
 }
@@ -214,8 +204,7 @@
         margin-bottom: 13px;
     }
 }
-.h2 {
-}
+
 .servis-p {
     width: 405.4px;
     font-size: 11px;
@@ -223,8 +212,7 @@
     letter-spacing: 0.2px;
     line-height: 19px;
 }
-.button {
-}
+
 .servis-button {
     letter-spacing: 1px;
 }
@@ -279,16 +267,14 @@
     min-height: 500px;
     padding-top: 123px;
 }
-.container {
-}
+
 .touch-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 34px;
 }
-.h2 {
-}
+
 .touch-h2 {
     font-size: 30px;
     font-weight: 700;
@@ -305,8 +291,7 @@
     background: var(--colorcontact);
     padding: 31px 0px 30px;
 }
-.container {
-}
+
 .contact-container {
     max-width: 748px;
 }
